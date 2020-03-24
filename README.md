@@ -1,13 +1,14 @@
-# Ćwiczenie 1 - "Odwróć to"
+# JS Algorithms Practice
 
-## Cel zadania
+## Ćwiczenie 1 - "Odwróć to"
 
-Zaimplementuj funkcję, która odwróci przekazany do niej string.
+### Cel zadania
 
-Przykład:
-reverseMe('abc') // => 'cba'
+|Zaimplementuj funkcję, która odwróci przekazany do niej string.
 
-## Punkty dodatkowe
+|Przykład:
+`reverseMe('abc') // => 'cba'`
 
-Funkcja powinna weryfikować, czy przekazany parametr jest typu string. Jeśli parametr nie
-spełnia tego warunku, funkcja powinna rzucić wyjątek.
+### Punkty dodatkowe
+
+|Funkcja powinna weryfikować, czy przekazany parametr jest typu string. Jeśli parametr nie spełnia tego warunku, funkcja powinna rzucić wyjątek.
