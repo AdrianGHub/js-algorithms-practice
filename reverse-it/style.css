@@ -1,0 +1,74 @@
+:root {
+    --grey: #595f6e;
+    --ocean: #5FA8D3;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.form {
+    width: 50%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+
+.result__input {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+}
+
+.result__label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid var(--grey);
+}
+
+.result__label::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid var(--ocean);
+    transform: translate(-100%);
+    transition: all .3s ease;
+}
+
+.result__span {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all .3s ease;
+    color: var(--grey);
+}
+
+.result__input:focus + .result__label .card_span, .result__input:valid + .result__label .result__span {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: var(--ocean);
+}
+
+.card_input:focus + .result__label::after, .result__label:valid + .result__label::after {
+    transform: translateY(0%);
+}
