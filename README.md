@@ -18,6 +18,7 @@
 
 6. Open website on localhost with index.html file displayed.
 
+
 ## Ćwiczenie 1 - "Odwróć to"
 
 ### Cel zadania
@@ -50,3 +51,20 @@
 `validatePassword('test11!') // => true`
 
 ![Przykład działania sktyptu na stronie](/github/password.png)
+
+
+## Ćwiczenie 3 - "Przeplataniec"
+
+### Cel zadania
+
+> Zaimplementuj funkcję, która dla dwóch podanych parametrów wykona "przeplatanie" - używając kolejnych cyfr parametrów połączy  je w jeden string.
+ 
+ ---
+ 
+> Przykład:
+`zipIt(111, 222) // => '121212'`
+`zipIt(123, 456) // => '142536'`
+`zipIt(12, 5555) // => '152555'`
+
+![Przykład działania sktyptu na stronie](/github/zipit.png)
+
