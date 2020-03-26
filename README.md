@@ -30,3 +30,23 @@
 `reverseHandler('abc') // => 'cba'`;
 
 ![Przykład działania sktyptu na stronie](/github/reverse.PNG)
+
+
+## Ćwiczenie 2 - "Walidacja"
+
+### Cel zadania
+
+> Zaimplementuj funkcję, która sprawdzi, czy przekazane hasło spełnia określone warunki:
+ 
+ * Ma długość od 4 do 10 znaków
+ * Przynajmniej 1 małą oraz wielką literę
+ * Zawiera jeden ze znaków specjalnych - !, @ lub #
+ * Zawiera cyfrę
+
+---
+
+> Przykład:
+`validatePassword('test') // => false`
+`validatePassword('test11!') // => true`
+
+![Przykład działania sktyptu na stronie](/github/password.png)
