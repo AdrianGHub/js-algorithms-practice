@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            .error {
+                color: rgb(160, 31, 31);
+            }
+    </style>
+</head>
+<body>
+    <h1>Cześć 👋 Tutaj z Twoich liczb powstaje przeplataniec 😉</h1>
+    <form class="form">
+        <input name="value" class="result__input result__input--first"type="text" autocomplete="off" placeholder="Wprowadź wartość..."/>
+    <label for="result" class="result__label result__label--first">
+    </label>
+    <input name="value" class="result__input result__input--second"type="text" autocomplete="off" placeholder="Wprowadź wartość..."/>
+    <label for="result" class="result__label result__label--second">
+    </label>
+    <input type="submit" value="Zatwierdź" hidden/>
+</form>
+<br>
+<div class="error"></div>
+<div class="result"></div>
+    <script defer src="script.js"></script>
+</body>
+</html>
