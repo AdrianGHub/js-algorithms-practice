@@ -8,7 +8,7 @@ function applyPredicate(elements, predicate) {
   elements.forEach(element => {
     predicate(element) ? predicatedArray.push(element) : false;
   });
-  return resultContainer.innerHTML = predicatedArray.join('');
+  return resultContainer.innerHTML = predicatedArray;
 };
 
 
