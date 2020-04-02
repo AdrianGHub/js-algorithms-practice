@@ -1,0 +1,11 @@
+{
+  "name": "tdd-card-validator",
+  "version": "1.0.0",
+  "description": "Praktyka TDD na przykładzie zadania z walidacją karty płatniczej\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[1;6D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "azinko",
+  "license": "ISC"
+}
